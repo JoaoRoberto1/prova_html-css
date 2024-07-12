@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Chaves nas mãos</title>
+</head>
+
+<body>
+
+    <header class="menu">
+        <a href="index.html"><h1 class="logo">Prova</h1></a>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#sobre-nos">Sobre nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/apartamento1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/apartamento2.jpg"class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/apartamento3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- <div class="banner"><img src="img/Apartamento prova.jpg" alt=""></div> -->
+
+    <main id="portfolio" class="container">
+        <article class="portfolio">
+            <h1>Chaves nas mãos</h1>
+            <p>Em construção, com previsão de entrega para o segundo semestre de 2024, o empreendimento Reserva Florence
+                fica numa localização SENSACIONAL NO bairro Luciano Cavalcante, por trás do Shopping Reserva da Avenida
+                Washington Soares, com varias das melhores escolas e universidades de Fortaleza próximas e novo TRIBUNAL
+                REGIONAL ELEITORAL SUL.O empreendimento localização em terreno amplo de cerca de 3000m2, agrega lazer,
+                comodidade e bem estar num lugar só. O Reserva Florence conta com 16 pavimentos, 2 opções de planta, 4
+                apartamentos por pavimento com 2 ou 3 vagas de garagem e área de lazer completa.
+
+                conta também, em meio a um lindo projeto paisagistico, com piscina e sauna, deck seco, espaço zen, campo
+                de futebol, trilha de caminhada, quadra de squash e muito mais ...
+
+                A planta do apartamento com 120m2 é perfeita com 3 suítes sendo a master com dois banheiros e varanda
+                íntima. e cozinha integrada a varanda gourmet.</p>
+        </article>
+
+    <section class="gallery">
+        <article class="gallery-card">
+            <img src="img/interior1.jpg" alt="Sala de Estar">
+            <p class="gallery-title">Sala de Estar</p>
+            <p class="gallery-text">Ampla &amp; Aconchegante</p>
+        </article>
+
+        <article class="gallery-card">
+            <img src="img/interior2.jpg" alt="Cozinha">
+            <p class="gallery-title">Cozinha</p>
+            <p class="gallery-text">Totalmente Equipada</p>
+        </article>
+
+        <article class="gallery-card">
+            <img src="img/interior3.jpg" alt="modelo 1">
+            <p class="gallery-title">Varanda</p>
+            <p class="gallery-text">Espaçosa &amp; Atraente</p>
+        </article>
+    </section>
+
+    <article id="sobre-nos" class="about">
+        <h2>Quando os detalhes importam <br>Simplesmente Acontece</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus esse excepturi ducimus, error rem et aut accusamus quibusdam atque, recusandae quis, voluptatem iste. Dicta sunt earum iusto minus sint repudiandae error nesciunt! Laborum corrupti voluptatem ea cum, at aperiam veniam totam quod necessitatibus quis consequuntur esse libero. Ea numquam incidunt suscipit quasi a nihil? Blanditiis rem minima eligendi deserunt fugit deleniti, facilis inventore explicabo? Sint maiores, cumque, ad est facilis aspernatur quasi in officia ex repellendus, totam vero neque possimus odit vel rerum. Tenetur est architecto labore delectus libero ut nobis aliquid sequi officiis, aspernatur modi similique laborum laboriosam molestias.</p>
+    </article>
+
+    <Article id="contato" class="contact">
+        <h2>Entre em Contato</h2>
+        <form action="#" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </Article>
+
+</main>
+
+
+<footer class="rodape">
+    Copyright &copy; prova.fs36 João Roberto
+</footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    </body>
+</html>
